@@ -1,0 +1,41 @@
+html, body{
+	background-image: url(../images/bg.png);
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+@font-face { 
+    font-family: "aller";
+    src: url("fonts/aller_Rg.eot");
+}
+@font-face { 
+    font-family: "aller";
+    src: url("fonts/aller_Rg.ttf") format("truetype");
+}
+
+/* centralizando*/
+#container {
+
+width: 760px;
+margin:0 auto; padding: 10px;
+text-align:left;
+}
+
+
+/* arrumando menu */
+#menu {
+	font-family: aller;
+	text-align: right;
+	font-size: 15px;
+}
+
+#menu a{
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+
+
