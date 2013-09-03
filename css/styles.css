@@ -18,24 +18,57 @@ a{
 
 /* centralizando*/
 #container {
-
-width: 760px;
-margin:0 auto; padding: 10px;
-text-align:left;
+	width: 760px;
+	margin:0 auto; padding: 10px;
+	text-align:left;
 }
 
 
 /* arrumando menu */
+#header{
+	height: 70px;
+}
+
+#logo {
+	width: 165px;
+	float: left;
+}
+
 #menu {
+	width: 590px;
+	float: right;
 	font-family: aller;
 	text-align: right;
 	font-size: 15px;
+	padding-top: 40px;
 }
 
 #menu a{
-	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-right: 10px;
 	margin-bottom: 5px;
+	padding: 5px;
 }
 
+#menu a:hover{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ef3f6b;
+	color: #fff;
+	padding: 5px;
+}
 
+#menu a.active{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ef3f6b;
+	color: #fff;
+	padding: 5px;
+}
 
+ /*------------------------------------------*/
+#sombra{
+		background-image: url(../images/dark.png);
+		height: 5px;
+		background-repeat: repeat-x;
+}
