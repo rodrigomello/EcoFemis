@@ -16,6 +16,16 @@ a{
     src: url("fonts/aller_Rg.ttf") format("truetype");
 }
 
+@font-face { 
+    font-family: "CANTABIL";
+    src: url("fonts/CANTABIL.eot");
+}
+@font-face { 
+    font-family: "CANTABIL";
+    src: url("fonts/CANTABIL.ttf") format("truetype");
+}
+
+
 /* centralizando*/
 #container {
 	width: 760px;
@@ -66,9 +76,52 @@ a{
 	padding: 5px;
 }
 
- /*------------------------------------------*/
+ /*------------------------------------------
 #sombra{
 		background-image: url(../images/dark.png);
 		height: 5px;
 		background-repeat: repeat-x;
+}
+*/
+#sliderFrame{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	width: 760px;
+	height: 380px;
+	background-color: #ef3f6b;
+}
+
+
+/*----------Colunas ----------*/
+#info h1{
+	font-family: CANTABIL;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 40px;
+	color: #ef3f6b;
+}
+#left {
+	border-width: 50px;
+	padding: 5px;
+	float: left;
+	width: 240px;
+}
+
+#middle{
+	border-width: 50px;
+	padding-right: 5px;
+	float: left;
+	width: 240px;	
+}
+
+#right{
+	border-width: 50px;
+	float: left;
+	width: 240px;
+
+}
+
+#textBox{
+	border-right:2px solid #ef3f6b;
+	padding-right: 10px;
 }
